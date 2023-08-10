@@ -22,7 +22,7 @@ import { EscuelaModule } from './escuela/escuela.module';
       password: 'R$gasali123',
       database: 'escolar',
       entities: ['dist/**/**.entity{.ts,.js}'],
-      synchronize: false,
+      synchronize: true,
     }),
     CiudadModule,
     ProfesorModule,
